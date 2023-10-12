@@ -1,0 +1,47 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-Windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <EnableDefaultEmbeddedResourceItems>false</EnableDefaultEmbeddedResourceItems>
+    <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="C1.Win.C1FlexGrid" Version="4.8.20232.620" />
+    <PackageReference Include="C1.Win.FlexGrid" Version="6.0.20232.620" />
+    <PackageReference Include="C1.Win.FlexGrid.GroupPanel" Version="6.0.20232.620" />
+    <PackageReference Include="C1.Win.FlexGrid.RowDetails" Version="6.0.20232.620" />
+    <PackageReference Include="C1.Win.FlexViewer" Version="6.0.20232.620" />
+    <PackageReference Include="C1.Win.Input" Version="6.0.20232.*" />
+    <PackageReference Include="C1.Win.Command" Version="6.0.20232.*" />
+    <PackageReference Include="C1.Win.Themes" Version="6.0.20232.*" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="App.config" />
+    <Compile Include="LogInForm.cs" />
+    <Compile Include="LogInForm.Designer.cs" />
+    <Compile Include="MainForm.cs" />
+    <Compile Include="MainForm.Designer.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="CompaniesForm.cs" />
+    <EmbeddedResource Include="CompaniesForm.resx">
+      <DependentUpon>CompaniesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include=".resx" />
+    <EmbeddedResource Include="LogInForm.resx" />
+    <EmbeddedResource Include="MainForm.resx" />
+    <Compile Include="CompaniesForm.Designer.cs">
+      <DependentUpon>CompaniesForm.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AuthenticationWebApp\AuthenticationWebApp.csproj" />
+    <ProjectReference Include="..\Authentication\Authentication.csproj" />
+  </ItemGroup>
+  
+</Project>

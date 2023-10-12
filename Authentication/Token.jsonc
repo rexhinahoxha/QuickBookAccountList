@@ -1,0 +1,14 @@
+﻿{
+  // I have created a new App in the Dashboard and from it l have taken
+  //the clientID and Client Secret keys and as well the redirection page 
+  // it could be any page l cound add into that section
+  "ClientId": "ABXJfZmXC6jbB6oSjZcqdSzZFFVNgg0BDf9tIq3kg04m6id6Zh",
+  "ClientSecret": "BqZBYyVMP3LbezIIL8r6p2DhvUEkYPja81Xidvhr",
+  "RedirectUrl": "https://liferay-support.zendesk.com/hc/article_attachments/360030162971/your-request-completed-successfully.png",
+
+  // This will be filled after running
+  // the app and authenticating.
+  "AccessToken": null,
+  "RefreshToken": null,
+  "RealmId": null
+}
