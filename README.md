@@ -1,4 +1,3 @@
-![image](https://github.com/rexhinahoxha/QuickBookAccountList/assets/61978953/29be3e68-c418-4cc6-8a72-bb1d85f9ee6f)# QuickBookAccountList
 Created a Windows Form using ComponentOne Flexi Grid and Services from QuickBook to read Company info and Account Lists. 
 Implemented as well an oAuth 2.0 authentication using QucikBooks. 
 
