@@ -1,6 +1,8 @@
 Created a Windows Form using ComponentOne Flexi Grid and Services from QuickBook to read Company info and Account Lists. 
 Implemented as well an oAuth 2.0 authentication using QucikBooks. 
 
+
+
 How it works:
 1. The application will firstly open a form so you could choose to Log in
 ![image](https://github.com/rexhinahoxha/QuickBookAccountList/assets/61978953/d79e6bd9-4d12-476b-8dcb-da134f0f4ce5)
